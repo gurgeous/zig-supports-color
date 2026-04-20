@@ -21,7 +21,7 @@ pub fn build(b: *std.Build) void {
     // lib
     //
 
-    const mod = b.createModule(.{
+    const mod = b.addModule("supports_color", .{
         .root_source_file = b.path("supports_color.zig"),
         .optimize = optimize,
         .target = target,
