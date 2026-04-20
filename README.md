@@ -45,12 +45,12 @@ We rely primarily on $TERM and $COLORTERM, and honor $NO_COLOR/$FORCE_COLOR if t
 
 Special thanks to these libraries which provided the basis for `zig-supports-color`. My work is essentially a zig-friendly variant of these, with some effort made to remove outdated heuristics:
 
-- [BurntSushi/termcolor](/BurntSushi/termcolor) (rust)
-- [chalk/supports-color](/chalk/supports-color) (ts)
-- [charmbracelet/colorprofile](/charmbracelet/colorprofile) (go)
-- [crossterm-rs/crossterm](/crossterm-rs/crossterm) (rust)
-- [muesli/termenv](/muesli/termenv) (go)
-- [rust-cli/anstyle](/rust-cli/anstyle) (rust)
+- [BurntSushi/termcolor](https://github.com/BurntSushi/termcolor) (rust)
+- [chalk/supports-color](https://github.com/chalk/supports-color) (ts)
+- [charmbracelet/colorprofile](https://github.com/charmbracelet/colorprofile) (go)
+- [crossterm-rs/crossterm](https://github.com/crossterm-rs/crossterm) (rust)
+- [muesli/termenv](https://github.com/muesli/termenv) (go)
+- [rust-cli/anstyle](https://github.com/rust-cli/anstyle) (rust)
 
 Also see this delightful ncurses terminfo doc:
 
@@ -64,4 +64,4 @@ Also see this delightful ncurses terminfo doc:
 
 ### Future Work
 
-I will be using this in my cli projects, though I consider it beta quality. In particular [tennis][/gurgeous/tennis], which people want to use on older terminals that don't support 16m. Feel free to create issues/PRs, feedback always welcome.
+I will be using this in my cli projects, though I consider it beta quality. In particular [tennis][https://github.com/gurgeous/tennis], which people want to use on older terminals that don't support 16m. Feel free to create issues/PRs, feedback always welcome.
