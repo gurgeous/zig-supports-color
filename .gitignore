@@ -1,2 +1,5 @@
 .DS_Store
 tmp/
+
+# I tried to move this into tmp, but someone keeps bring it back. just in case
+.zig-cache
