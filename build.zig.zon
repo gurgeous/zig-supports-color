@@ -1,0 +1,7 @@
+.{
+    .name = .supports_color,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.16.0",
+    .paths = .{""},
+    .fingerprint = 0x6c89176d76d79ac5,
+}

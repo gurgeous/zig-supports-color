@@ -1,0 +1,6 @@
+[env]
+_.path = ["{{config_root}}/zig-out/bin", '{{config_root}}/bin']
+
+[tools]
+just = "latest"
+zig = "0.16.0"
