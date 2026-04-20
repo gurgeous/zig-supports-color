@@ -64,4 +64,4 @@ Also see this delightful ncurses terminfo doc:
 
 ### Future Work
 
-I will be using this in my cli projects, though I consider it beta quality. In particular [tennis][https://github.com/gurgeous/tennis], which people want to use on older terminals that don't support 16m. Feel free to create issues/PRs, feedback always welcome.
+I will be using this in my cli projects, though I consider it beta quality. In particular [tennis](https://github.com/gurgeous/tennis), which people want to use on older terminals that don't support truecolor. Feel free to create issues/PRs, feedback always welcome.
